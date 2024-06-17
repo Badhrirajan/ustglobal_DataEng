@@ -1,0 +1,34 @@
+GITHUB:
+
+git --version - It will display the current verison of the git installed
+
+git status - it will show the status of your files in the given git repository
+
+git init - Initialized the emply git repository or reinitialized existing git repository
+
+git config --list - It display all the git configuration set parameters
+
+git confit --get <parameter-name> - It displays the value of give parameters-name
+
+git confit --global user.email "our email"
+
+git config --global user.name "our github username"
+
+git add <filename> - It will add only specific file to the staging
+
+git commit -m "comment" - It will create the version with given message
+
+git add * - Add all the file from working directory 
+
+git rm --cached <filename> or * - it removes the file from staging
+
+git rm --cached * -r - In case there is a folder -r is used to remove the files from subfolder from staging
+
+git restore --staged <filename> - To restore it to the working directory 
+
+git add -A - To add all the files in the staging directory
+
+git rm --cached -f - To remove forcefully the files from the staging environment. It happens if there is a difference between the files in staging vs working
+
+git diff - It will give you the difference between the staging file vs working file
+
