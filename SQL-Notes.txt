@@ -1,0 +1,17 @@
+SQL = Structured Query Language
+
+Use to manage and query the data
+4 Type of statement
+
+1.DDL - Data Definition Language
+(CREATE,DROP,ALTER,TRUNCATE)
+
+2.DML - Data Manipulation Language
+(INSERT,UPDATE,DELETE,MERGE)
+
+3.DQL - Data Query Language
+(SELECT)
+
+4.DCL - Data Control Language
+(GRANT,REVOKE,COMMIT,ROLLBACK)
+
